@@ -1,0 +1,32 @@
+{
+    "name": "github-nodejs-shell-server-updater",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Jsix",
+    "license": "MIT",
+    "dependencies": {
+        "github-webhook-handler": "^1.0.0",
+        "shelljs": "^0.8.5"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": false,
+            "es6": true
+        },
+        "parserOptions": {
+            "ecmaVersion": "latest"
+        },
+        "rules": {
+            "no-unused-vars": [
+                "off"
+            ]
+        }
+    },
+    "scripts": {
+        "deploy": "node ./index.js",
+        "pm2me": "node ./pm2me.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.28.0"
+    }
+}
