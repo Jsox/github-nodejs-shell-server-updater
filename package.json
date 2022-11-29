@@ -1,9 +1,22 @@
 {
     "name": "github-nodejs-shell-server-updater",
+    "description": "Automatic deploy from Github to your server, listen to push updates from Github, pull updated code, install, build and start pm2 process.",
+    "repository": {
+        "type": "",
+        "url": "https://github.com/Jsox/github-nodejs-shell-server-updater.git"
+    },
+    "files": [
+        "pm2me.js",
+        "start.js",
+        "lib"
+    ],
     "version": "1.0.0",
-    "main": "index.js",
-    "author": "Jsix",
-    "license": "MIT",
+    "main": "start.js",
+    "author": {
+        "name": "Jsix",
+        "email": "admin@jsix.ru"
+    },
+    "license": "BSD-3-Clause",
     "dependencies": {
         "github-webhook-handler": "^1.0.0",
         "shelljs": "^0.8.5"
@@ -28,5 +41,8 @@
     },
     "devDependencies": {
         "eslint": "^8.28.0"
+    },
+    "engines": {
+        "node": ">=16"
     }
 }
