@@ -1,6 +1,15 @@
 {
     "name": "github-nodejs-shell-server-updater",
     "description": "Automatic deploy from Github to your server, listen to push updates from Github, pull updated code, install, build and start pm2 process.",
+    "keywords": [
+        "github hooks",
+        "github",
+        "auto deploy",
+        "node",
+        "nodejs",
+        "server",
+        "update"
+    ],
     "repository": {
         "type": "",
         "url": "https://github.com/Jsox/github-nodejs-shell-server-updater.git"
@@ -10,7 +19,7 @@
         "start.js",
         "lib"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "start.js",
     "author": {
         "name": "Jsix",
