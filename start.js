@@ -4,8 +4,8 @@ const Deploy = require('./lib/Deploy');
 const Server = require('./lib/Server');
 
 module.exports = class Deployer {
-	constructor(config) {
-		new Deploy(config);
-		new Server(config, 6768);
-	}
+    constructor(config, port = 6768) {
+        new Deploy(config);
+        new Server(config, port);
+    }
 };
